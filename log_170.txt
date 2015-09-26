@@ -1,0 +1,22 @@
+epoch 1, train perf 34.019608 %, val perf 35.294118, test perf 27.800000, time 0.705821
+epoch 2, train perf 59.098039 %, val perf 59.215686, test perf 61.400000, time 0.748237
+epoch 3, train perf 73.725490 %, val perf 70.000000, test perf 73.400000, time 0.760946
+epoch 4, train perf 86.098039 %, val perf 82.941176, test perf 87.600000, time 0.754583
+epoch 5, train perf 90.607843 %, val perf 84.705882, test perf 91.200000, time 0.752443
+epoch 6, train perf 92.176471 %, val perf 86.078431, test perf 91.000000, time 0.732573
+epoch 7, train perf 91.627451 %, val perf 86.274510, test perf 92.800000, time 0.757995
+epoch 8, train perf 94.215686 %, val perf 88.431373, test perf 93.400000, time 0.782404
+epoch 9, train perf 95.450980 %, val perf 88.235294, test perf 92.000000, time 0.777622
+epoch 10, train perf 96.117647 %, val perf 89.411765, test perf 95.400000, time 0.776268
+epoch 11, train perf 97.117647 %, val perf 89.215686, test perf 94.000000, time 0.739733
+epoch 12, train perf 97.901961 %, val perf 88.431373, test perf 93.400000, time 0.759545
+epoch 13, train perf 98.294118 %, val perf 88.823529, test perf 93.800000, time 0.762538
+epoch 14, train perf 98.137255 %, val perf 89.215686, test perf 94.600000, time 0.740377
+epoch 15, train perf 98.352941 %, val perf 89.803922, test perf 94.600000, time 0.736761
+epoch 16, train perf 98.313725 %, val perf 90.000000, test perf 95.600000, time 0.755190
+epoch 17, train perf 98.764706 %, val perf 89.019608, test perf 94.800000, time 0.759673
+epoch 18, train perf 98.921569 %, val perf 88.823529, test perf 94.600000, time 0.768069
+epoch 19, train perf 98.921569 %, val perf 89.607843, test perf 95.000000, time 0.764595
+epoch 20, train perf 99.215686 %, val perf 89.607843, test perf 94.200000, time 0.738332
+cv: 0, perf: 0.956
+0.956
