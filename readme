@@ -36,9 +36,9 @@ run "python process_TREC.py" ("preindex.py" will be run in this file).
 third step:
 THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32 python conv_sib_gpu.py 170
 
-This code uses GPU(Tesla K80), but the code still works for CPU. If you want to test on cpu, you could change the above device=gpu to device=cpu and floatX=float32 to floatX=float64. Since there is a precision difference between gpu and cpu, the results will be slightly different in some cases. Batch size and lr_decay are most two important parameter to tune for better performance.
+This code uses GPU(Tesla K80), but the code still works for CPU. If you want to test on cpu, you could change the above device=gpu to device=cpu and floatX=float32 to floatX=float64. Since there is a precision difference between gpu and cpu, the results will be slightly different in some cases. Compared with other hyperparameters, the performace of the model is relatively sensitive to batch_size and lr_decay. I would suggest to tune these two hyperparameter first. 
 
-Another thing is: in our implementation, we use 10% of training data as dev set. We do not recycle the dev set to train the model again. Some people do this and I believe this will improve the performance.
+In our implementation, we use 10% of training data as dev set. We do not recycle the dev set to train the model again. Some people do this and I believe this will improve the performance.
 
 Mingbo Ma
 
